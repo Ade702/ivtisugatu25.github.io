@@ -1,0 +1,268 @@
+* {
+   font-variant: Bradley Hand, cursive;
+   margin: 0;
+   padding: 0;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.men {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+}
+.kartoch {
+   width: 50%;
+   justify-content: center;
+   display: block;
+}
+.fotkart{
+      display: block;
+}
+
+.fokart {
+
+   width: 50%;
+}
+.kartochki{
+   display: flex;
+   justify-content: space-between;
+}
+
+/* слайдер */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+   height: 100vh;
+}
+
+.container {
+   position: relative;
+   overflow: hidden;
+   width: 100vw;
+   height: 100vh;
+}
+.fot{
+
+   width: 110%;
+}
+.j{
+      background-color: #ffffff;
+}
+.l {
+   background-color: #000000;
+}
+.v {
+   background-color: #e8e3e3;
+}
+.b {
+   background-color: s#e18888;
+}
+
+
+.sidebar {
+   height: 100%;
+   width: 35%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: transform 0.5s ease-in-out;
+}
+
+.sidebar>div {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+}
+
+.sidebar h1 {
+   font-size: 40px;
+   margin-bottom: 10px;
+   margin-top: -30px;
+}
+
+.main-slide {
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 35%;
+   width: 65%;
+   transition: transform 0.5s ease-in-out;
+}
+
+.main-slide>div {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 100%;
+   width: 100%;
+}
+
+.cvet {
+   padding: 30px;
+
+}
+.cvet h1{
+   margin-top: 50px;
+   text-align: center;
+   font-size: 32px;
+}
+.cvet p{
+   font-size: 32px;
+   margin-left: 60px;
+   margin-right: 60px;
+
+}
+.zag {
+   margin-bottom: 10px;
+}
+
+.razm {
+font-size: 10%;
+}
+
+button {
+   background-color: #fff;
+   border: none;
+   color: #aaa;
+   cursor: pointer;
+   font-size: 16px;
+   padding: 15px;
+}
+
+button:hover {
+   color: #222;
+}
+
+button:focus {
+   outline: none;
+}
+
+.container .controls button {
+   position: absolute;
+   left: 35%;
+   top: 50%;
+   z-index: 100;
+}
+
+.container .controls .down-button {
+   transform: translateX(-100%);
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.container .controls .up-button {
+   transform: translateY(-100%);
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+/* nav */
+
+
+html {
+      background: linear-gradient(to bottom right, #87cefa, #d1b1d1);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+   font-family: 'Alegreya';
+   margin: none;
+   padding: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 28px;
+}
+
+.boxlogo {
+   /* text-align: center; */
+   display: flex;
+
+   margin-top: 10px;
+}
+
+.boxlogo ul {
+   list-style: none;
+   padding-left: 84px;
+}
+
+
+.boxlogo ul li {
+   color: #16096d;
+   display: inline-block;
+   padding-left: 20px;
+}
+
+.boxlogo ul li a {
+   color: rgb(0, 0, 0);
+}
+
+.boxlogo>ul>li:hover .icon {
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   color: #240f8d;
+
+}
+
+.shapka {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: flex;
+   height: 50 px;
+   justify-content: space-between;
+   margin-right: 60px;
+   font-weight: bold;
+
+}
+
+.men {
+   display: flex;
+
+   justify-content: space-between;
+}
+
+.men p {
+   margin-left: 30px;
+   color: rgb(0, 0, 0);
+}
+
+.dno {
+   display: block;
+   background: #7fa8c2;
+   justify-content: center;
+   margin-top: 80px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+
+.kont {
+   font-size: 24px;
+}
+
+.dno p {
+   display: flex;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   margin-top: 10px;
+}

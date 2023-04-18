@@ -1,0 +1,171 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.men {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 30px;
+}
+
+.tabl{
+   background-color: rgb(245, 242, 238);
+   margin-top: 50px;
+   margin-left: 100px;
+   font-size: 24px;
+   text-align: center;
+}
+.loading {
+   position: relative;
+   width: 0;
+   padding: 10px;
+   /* если задать в %, то будет рассчитываться от ширины родителя */
+   background:
+      linear-gradient(rgb(0, 0, 0) 30%, transparent 30%, transparent 70%, rgba(0, 0, 0, .4) 70%),
+      linear-gradient(to left, rgba(0, 0, 0, .2) 30%, transparent 30%, transparent 70%, rgba(0, 0, 0, .8) 70%);
+   background-repeat: no-repeat;
+   background-size: 10% 100%, 100% 10%;
+   background-position: 50% 0%, 0 50%;
+   -webkit-animation: loading .7s infinite steps(8);
+   animation: loading .7s infinite steps(8);
+}
+
+.loading:after {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image:
+      linear-gradient(rgba(0, 0, 0, .1) 30%, transparent 30%, transparent 70%, rgba(0, 0, 0, .5) 70%),
+      linear-gradient(to left, rgba(0, 0, 0, .3) 30%, transparent 30%, transparent 70%, rgba(0, 0, 0, .9) 70%);
+   background-repeat: no-repeat;
+   background-size: 10% 100%, 100% 10%;
+   background-position: 50% 0%, 0 50%;
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+@-webkit-keyframes loading {
+   100% {
+      -webkit-transform: rotate(1turn);
+   }
+}
+
+@keyframes loading {
+   100% {
+      transform: rotate(1turn);
+   }
+}
+.mozg {
+   width: 5%;
+   height: 5%; display: block;
+}
+.mo{
+   display: flex;
+}
+
+/* nav */
+* {
+   font-family: Kyiv*Type Titling;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   background: linear-gradient(to bottom right, #87cefa, #d1b1d1);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+   font-family: 'Alegreya';
+   margin: none;
+   padding: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 28px;
+}
+
+.boxlogo {
+   /* text-align: center; */
+   display: flex;
+
+   margin-top: 10px;
+}
+
+.boxlogo ul {
+   list-style: none;
+   padding-left: 84px;
+}
+
+
+.boxlogo ul li {
+   color: #16096d;
+   display: inline-block;
+   padding-left: 20px;
+}
+
+.boxlogo ul li a {
+   color: rgb(0, 0, 0);
+}
+
+.boxlogo>ul>li:hover .icon {
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   color: #240f8d;
+
+}
+
+.shapka {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: flex;
+   height: 50 px;
+   justify-content: space-between;
+
+
+   margin-right: 60px;
+   font-weight: bold;
+
+}
+
+.men {
+   display: flex;
+
+   justify-content: space-between;
+}
+
+.men p {
+   margin-left: 30px;
+   color: rgb(0, 0, 0);
+}
+
+.dno {
+   display: block;
+   background: #7fa8c2;
+   justify-content: center;
+   margin-top: 80px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+}
+
+.kont {
+   font-size: 24px;
+}
+
+.dno p {
+   display: flex;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   margin-top: 10px;
+}

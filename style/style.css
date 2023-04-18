@@ -1,0 +1,125 @@
+* {
+   font-family: Kyiv*Type Titling;
+   margin: 0;
+   padding:0 ;
+}
+html {
+   background: linear-gradient(to bottom right, #87cefa, #d1b1d1);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+   font-family: 'Alegreya';
+   margin: none;
+   padding: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 28px;
+}
+
+.diskl {
+   display: flex;
+      justify-content: center;
+      background-color: black;
+      margin-bottom: 20px;
+      background-image: url('http://lorempixel.com/200/200/city/9');
+      box-shadow: 0 0 8px 12px rgb(93, 180, 234) inset;
+}
+
+.boxlogo {
+   /* text-align: center; */
+   display: flex;
+
+   margin-top: 10px;
+}
+
+.boxlogo ul {
+   list-style: none;
+   padding-left: 84px;
+}
+
+
+.boxlogo ul li {
+   color: #16096d;
+   display: inline-block;
+   padding-left: 20px;
+}
+
+.boxlogo ul li a {
+color: rgb(0, 0, 0);
+}
+
+.boxlogo>ul>li:hover .icon {
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   color: #240f8d;
+
+}
+.shapka{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   display: flex;
+   height: 50 px;
+   justify-content: space-between;
+
+   margin-left: 30px;
+   margin-right: 60px;
+    font-weight: bold;
+
+}
+.men {
+   display: flex;
+
+    justify-content: space-between;
+}
+
+.men p {
+   margin-left: 30px;
+         color: rgb(0, 0, 0);
+}
+
+
+.diskleimer{
+ width: 50%;
+ height: auto;
+}
+.obsh{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 80px;
+}
+.ob{
+width: 50%;
+height: auto;
+}
+.obshnad{
+   margin-left: 30px;
+   font-size: 32;
+display: flex;
+}
+
+.dno {
+display: block;
+background: #7fa8c2;
+justify-content: center;
+margin-top: 80px;
+padding-top: 10px;
+padding-bottom: 15px;
+}
+.kont{
+   font-size: 24px;
+}
+.dno p {
+display: flex;
+justify-content: center;
+color: rgb(255, 255, 255);
+margin-top: 10px;
+}
